@@ -184,8 +184,8 @@ window.onload = function()
             if(!planetas[i].vista)
             {
                 planetas[i].vista = true;
-                //responsiveVoice.speak("Estas viendo " + planetas[i].nombre, "Spanish Female");
-                console.log("Estas viendo "+planetas[i].nombre);
+                responsiveVoice.speak("Estas viendo " + planetas[i].nombre, "Spanish Female");
+                //console.log("Estas viendo "+planetas[i].nombre);
             }
         }
         else
