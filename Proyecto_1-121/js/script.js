@@ -179,8 +179,8 @@ $(function()
             }
           });
 
-//Funcion para los colores aleatorios
-    function randomColor()
+
+    function randomColor() //para generar los colores aleatorios sacado de http://www.paulirish.com/2009/random-hex-color-code-snippets/
     {
       return'#'+(function lol(m,s,c){return s[m.floor(m.random() * s.length)] +
       (c && lol(m,s,c-1));})(Math,'0123456789ABCD',4);
