@@ -1,0 +1,42 @@
+
+
+.circulo
+{
+	border:2px solid black;
+	border-color: black;
+  text-align: center;
+  font-weight:Arial;
+  font-size: 22px;
+	cursor: pointer;
+	border-radius: 50px;
+}
+
+
+
+.boton {
+	  background: #3498db;
+	  background-image: -webkit-linear-gradient(top, #3498db, #87b8d6);
+	  background-image: -moz-linear-gradient(top, #3498db, #87b8d6);
+	  background-image: -ms-linear-gradient(top, #3498db, #87b8d6);
+	  background-image: -o-linear-gradient(top, #3498db, #87b8d6);
+	  background-image: linear-gradient(to bottom, #3498db, #87b8d6);
+	  -webkit-border-radius: 19;
+	  -moz-border-radius: 19;
+	  border-radius: 19px;
+	  font-family: Georgia;
+	  color: #ffffff;
+	  font-size: 15px;
+	  padding: 9px 22px 10px 20px;
+	  border: solid #040505 4px;
+	  text-decoration: none;
+	}
+
+	.boton:hover {
+	  background: #4595c7;
+	  background-image: -webkit-linear-gradient(top, #4595c7, #040505);
+	  background-image: -moz-linear-gradient(top, #4595c7, #040505);
+	  background-image: -ms-linear-gradient(top, #4595c7, #040505);
+	  background-image: -o-linear-gradient(top, #4595c7, #040505);
+	  background-image: linear-gradient(to bottom, #4595c7, #040505);
+	  text-decoration: none;
+	}
