@@ -110,4 +110,9 @@ Fabian Ortiz Mahecha
 
 [@ostjh]
 License
- 
+----
+MIT
+[@ostjh]:https://twitter.com/ostjh
+[PassportJS]:http://passportjs.org/
+[database.js]:https://github.com/Jorger/EP03_2016_01/blob/master/clase_12_reto_grupal/modulos/database.js
+[bcrypt-nodejs]:https://www.npmjs.com/package/bcrypt-nodejs
