@@ -17,15 +17,7 @@ $(function()
           ayuda=0,
           puntuacion=0;
 
-  //variables para ejecutar el cronometro
-      var tiempo,
-          segundos=0,
-          minutos=0,
-          horas=0,
-          seg,
-          min,
-          hor;
-
+  
 
             function temp() //para llevar el tiempo, basado en http://librosweb.es/libro/javascript/capitulo_8/relojes_contadores_e_intervalos_de_tiempo.html
             {
