@@ -29,6 +29,14 @@ $(function()
 
             function temp() //para llevar el tiempo, basado en http://librosweb.es/libro/javascript/capitulo_8/relojes_contadores_e_intervalos_de_tiempo.html
             {
+              //variables para ejecutar el cronometro
+              var tiempo,
+              segundos=0,
+              minutos=0,
+              horas=0,
+              seg,
+              min,
+              hor;
               tiempo=setInterval(function(){
                 segundos++;
                 seg=segundos<10?"0"+segundos:segundos; //tomado de http://librosweb.es/libro/javascript/capitulo_8/relojes_contadores_e_intervalos_de_tiempo.html
